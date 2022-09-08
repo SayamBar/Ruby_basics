@@ -2,7 +2,7 @@ class Number
     def check_palindrome(num)
         s = 0
         n = num
-        while n! = 0
+        while n!= 0
             r = n % 10
             s = s * 10 + r
             n = n / 10
